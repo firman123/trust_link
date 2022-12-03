@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iv_background"
+    tools:context=".ui.dukcapil.FailedDetectionActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_sorry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cancel" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/failed_liveness"
+        android:textColor="@color/black"
+        android:textFontWeight="600"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_sorry" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/please_ensure"
+        android:textFontWeight="600"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_perhatian"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_see"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_orange"
+        android:includeFontPadding="false"
+        android:text="See JSON Details"
+        android:textAllCaps="false"
+        android:textFontWeight="700"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        app:layout_constraintStart_toStartOf="@+id/rv_perhatian"
+        app:layout_constraintTop_toBottomOf="@+id/rv_perhatian" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_retry"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_orange"
+        android:includeFontPadding="false"
+        android:text="Try Again"
+        android:textAllCaps="false"
+        android:textFontWeight="700"
+        android:textSize="29sp"
+        app:layout_constraintEnd_toEndOf="@+id/rv_perhatian"
+        app:layout_constraintTop_toBottomOf="@+id/rv_perhatian" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background_progressbar.xml" value="0.101" />
+        <entry key="app/src/main/res/drawable/background_textfield.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/background_textfield_big.xml" value="0.1545" />
+        <entry key="app/src/main/res/drawable/button_blue.xml" value="0.2265" />
+        <entry key="app/src/main/res/drawable/button_white.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/circle_bg_white.xml" value="0.101" />
+        <entry key="app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.101" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/round_bg_blue.xml" value="0.2265" />
+        <entry key="app/src/main/res/drawable/round_bg_blue_v2.xml" value="0.231" />
+        <entry key="app/src/main/res/font/font_poppins.xml" value="0.31302083333333336" />
+        <entry key="app/src/main/res/layout-sw720dp-v28/activity_identify_verification.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_camera.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_failed.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_failed_detection.xml" value="0.11" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_failed_ocr.xml" value="0.11" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_identify_verification.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_identity_verification.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_instruction.xml" value="0.10408921933085502" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_json_result.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_rear_camera.xml" value="0.125" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_result_ocr.xml" value="0.165" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_selfie_instruction.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_success.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_upload.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/dialog_konfirmasi.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/dialog_verifikasi_sukses.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/item_perhatian.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp/loading_dialog.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_camera.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_failed.xml" value="0.21942291259765628" />
+        <entry key="app/src/main/res/layout/activity_failed_detection.xml" value="0.2132391357421875" />
+        <entry key="app/src/main/res/layout/activity_failed_ocr.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_identify_verification.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_instruction.xml" value="0.22066326530612246" />
+        <entry key="app/src/main/res/layout/activity_json_result.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_preview.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_rear_camera.xml" value="0.19815460205078125" />
+        <entry key="app/src/main/res/layout/activity_result_ocr.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_selfie_instruction.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_success.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_upload.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_konfirmasi.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog_verifikasi_sukses.xml" value="0.3583306884765625" />
+        <entry key="app/src/main/res/layout/item_perhatian.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/loading_dialog.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.14140625" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.101" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.101" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

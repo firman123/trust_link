@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Trustlink</string>
+    <string name="title_welcome">Welcome to</string>
+    <string name="desc_home">Doesn’t have an account yet? \nPlease Sign Up to enjoy our services!</string>
+    <string name="sistem_sibuk">Sistem sedang sibuk atau terdapat ketidaksesuaian format, silahkan coba verifikasi kembali.</string>
+    <string name="error_code_401">Pengguna tidak diautentikasi, silakan masuk lagi!</string>
+    <string name="error_code_404">Halaman tidak ditemukan, silakan coba lagi nanti!</string>
+    <string name="error_code_405">Metode tidak diizinkan, silakan coba lagi nanti!</string>
+    <string name="error_code_422">Tidak dapat memproses permintaan Anda, silakan hubungi administrator!</string>
+    <string name="error_code_500">Server sedang dalam pemeliharaan, silakan hubungi administrator!</string>
+    <string name="error_something">Terjadi kesalahan, coba lagi nanti!</string>
+    <string name="error_connection">Tidak dapat terhubung ke server, periksa koneksi internet Anda!</string>
+    <string name="error_json_syntax">Terjadi kesalahan respons dari server, silakan hubungi administrator!</string>
+    <string name="no_data">Tidak ada data yang tersedia!</string>
+    <string name="selfie_instruction">Selfie Instruction</string>
+    <string name="self_instruction_1">Ensure your face is within the frame</string>
+    <string name="self_instruction_2">Ensure enough lighting surrounds you</string>
+    <string name="self_instruction_3">Please do not use sunglasses and/or a medical mask</string>
+    <string name="personal_attenntion">Your personal data is guaranteed safe and used only for verification purposes</string>
+    <string name="start_verification">Start Verification</string>
+    <string name="text_sorry">We are sorry, we couldn’t verify your account. Please visit the nearest branch to open TrustLink Bank Account</string>
+    <string name="thank_you">Thank you, your account is successfully verified!</string>
+    <string name="failed_liveness">Sorry, Liveness detection not passed!</string>
+    <string name="please_ensure">Please ensure:</string>
+    <string name="live_selfie">Live Selfie</string>
+    <string name="retake">Retake</string>
+    <string name="submit">Submit</string>
+    <string name="identity_verification">Identity Verification</string>
+    <string name="nik">NIK</string>
+    <string name="detection_passed">Thank You \nLiveness detection passed!</string>
+    <string-array name="attention_list">
+        <item>The eKTP is real, not a photocopy</item>
+        <item>The eKTP is not blurred and/or cropped</item>
+        <item>The photo taken/uploaded is a eKTP, not other document</item>
+        <item>The eKTP is not rotated</item>
+        <item>The photo brightness and/or contrast are in ideal condition</item>
+    </string-array>
+    <string-array name="failed_list">
+        <item>Selfie with your real face</item>
+        <item>Do not use sunglasses and/or a medical mask</item>
+        <item>No multiple faces within the frame</item>
+        <item>Face is not occluded</item>
+        <item>Face not too far/too close to the camera</item>
+    </string-array>
+</resources>
